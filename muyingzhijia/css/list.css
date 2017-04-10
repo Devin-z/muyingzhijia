@@ -1,0 +1,26 @@
+/*banner*/
+#banner{width: 100%;}
+#banner img{width: 100%;}
+
+/*content*/
+.content{padding-top:30px;background: #fff}
+#content{width: 1000px;margin:0 auto;}
+#content ul{width: 100%;display: flex;justify-content: space-around;flex-wrap: wrap}
+#content ul li{width: 240px;margin-bottom: 20px;position: relative;top:0;z-index:999}
+#content ul li:hover{top:-10px;transition: all .3s linear}
+#content ul li img{width: 100%;height: 230px;cursor:pointer;}
+#content ul li dd.pd{line-height: 2;padding:3px 8px;background: #FBFAFA}
+#content ul li dd p{width: 100%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+#content ul li dd a{color:#f60;cursor:pointer;}
+#content ul li dd div{width: 240px;height: 39px;line-height: 1;background: url(../img/list/BtnBg_light.png);cursor:pointer;}
+#content ul li dd div span{color:#fff;display: inline-block;font-size:18px;position: relative;top:10px;left:10px;}
+
+
+
+
+
+
+
+
+
+

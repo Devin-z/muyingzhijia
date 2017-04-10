@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" href="../css/common2.css"/>
+		<link rel="stylesheet" href="../css/detail.css"/>
+		<link rel="stylesheet" href="../css/aside.css">	
+		<link rel="stylesheet" href="../js/jquery.gdszoom/jquery.gdszoom.css">	
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/jquery.gdszoom/jquery.gdszoom.js"></script>
+	<!-- 	<script src="../js/common2.js" ></script> -->
+		<script src="../js/detail.js" ></script>
+		<script src="../js/cookie.js"></script>
+	</head>
+	<body>
+		<div class="header">
+		</div>
+		<div class="aside"></div>
+
+		<div id="nav_posi" class="w2">
+			<ul>
+				<li"><a href="#"><b>首页</b></a></li> >
+				<li><a href="#" class='superiors' ></a></li> >
+				<li><a href="#" class='superior'></a></li> >
+				<li class="name"></li>
+			</ul>
+		</div>
+		<div id="cont1" class="w2">
+			<div class="cont1_left l">
+				<ul class='imgurl' >
+					<li>
+				</ul>
+				<ul class='listimg'>
+					
+				</ul>
+			</div>
+			<div class="cont1_cen l">
+				<h2 class="name"></h2>
+				
+				<div class="addr"><span></span>母婴之家发货</div>
+				<div><cx>促销价</cx><jq>¥<strong class="price"></strong></jq></div>
+				<p class='color'><ys>颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色</ys><a href="#">湖蓝色</a><a href="#">黄色</a><a href="#">紫色</a><a href="#">红色</a><a href="#">白色</a></p>
+				<div class="cont1_cen_box">
+					<div class="cont1_cen_num">
+						<input type="text" id="num" value="1"/>
+						<div class="cont1_cen_btn1 l"></div>
+						<div class="cont1_cen_btn2 l"></div>
+					</div>
+					<button class="gouwu l"></button>
+					<a  class="keHuduan l"></a>
+				</div>
+			</div>
+			<div class="cont1_right l">
+				<div class="cont1_right_box">
+					<dl class="l">
+						<dt class="baoyou"><a ><i></i></a></dt>
+						<dd><a >包邮说明</a></dd>
+					</dl>
+					<dl class="l">
+						<dt class="zhengpin"><a ><i></i></a></dt>
+						<dd><a >正品保障</a></dd>
+					</dl>
+					<dl class="l">
+						<dt class="shouhou"><a ><i></i></a></dt>
+						<dd><a >售后服务</a></dd>
+					</dl>					
+				</div>
+				<div class="cont1_right_box2">
+					<a ><img src="../img/detail/20160203094615_555_1490.jpg"/></a>
+				</div>
+				<div class="cont1_right_box3">
+					<p>好评率:100%<a  class="r">69  人评论</a></p>
+					<div class="score">
+						<i></i><span></span>
+					</div>
+					<dl>
+						<dt>myzj***</dt>
+						<dd>比我想象中好太多了</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div id="cont2" class="w2">
+			<div class="cont2_left l">
+				<div class="cont2_left1">
+					<img src="../img/detail/api.png"/>
+					<p>手机下单有惊喜<br />分享朋友更容易</p>
+				</div>
+				<div class="cont2_left2">
+					<dl>
+						<dt>相关分类</dt>
+						
+					</dl>
+				</div>
+				<div class="cont2_left3">
+					<dl>
+						<dt>其它同类品牌</dt>
+						
+					</dl>
+				</div>	
+				<div class="cont2_left4">
+					<dl>
+						<dt class="dt_box">最近浏览</dt>
+					</dl>
+				</div>
+			</div>
+			<div class="cont2_right l">
+				<div class="nav_box">
+					<div class="cont2_right_top">
+						<ul class="l">
+							<li><a  class="a_cur">商品介绍</a></li>
+							<li><a >商品评论<span>(69)</span></a></li>
+							<li><a >商品咨询</a></li>
+							<li><a >品质保障</a></li>
+						</ul>
+						<a  class="jia_shopcar"></a>
+					</div>					
+				</div>
+				<div class="cont2_right_down">
+					<div class="goodsShow">
+						<div id="goodsShows">
+							<ul >
+								<li>简介：<span class="name"></span></li>
+								<li>产地：<span class='made'></span></li>
+							</ul>
+							<ul class='showimg'>
+								
+							</ul>
+							
+						</div>
+						<div id="goodsPingjia">
+							<div class="goodsPingjia" id="">
+								<h2>商品评价</h2>
+								<div>
+									<div class="rate l">
+										<span><b id="rate">100</b>%</span>
+										<p>好评度</p>
+									</div>
+									<div class="percent l">
+										<dl>
+											<dt>好评</dt>
+											<dd><s><c></c></s><span>(100%)</span></dd>
+										</dl>
+										<dl>
+											<dt>中评</dt>
+											<dd><s></s><span>(100%)</span></dd>
+										</dl>
+										<dl>
+											<dt>差评</dt>
+											<dd><s></s><span>(100%)</span></dd>
+										</dl>									
+									</div>
+									<div class="yinxiang l">
+										<dl>
+											<dt>买家印象：</dt>
+											<dd><div class="neirong"></div></dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="goodsQuanping">
+								<div class="quan_box">
+									<ul class="l">
+										<li><a  class="a_cur">全部评论<span>(69)</span></a></li>
+										<li><a >好评<span>(69)</span></a></li>
+										<li><a >中评<span>(0)</span></a></li>
+										<li><a >差评<span>(0)</span></a></li>
+										<li><a >精华<span>(0)</span></a></li>
+									</ul>								
+								</div>
+								<div class="ping_down">
+									<p>暂无商品评价！争抢产品评价！温馨提示，只有购买过该商品的用户才能进行评价。</p>
+								</div>
+								<div class="ping_bottom">
+									<a  class="l">[查看全部评价]</a>
+									<div class="fanye r">
+										<a >上一页</a>
+										1
+										<a >下一页</a>
+									</div>
+								</div>								
+							</div>
+						</div>
+						<div class="goodsQuanping" id="goodsQuanping">
+							<div class="quan_box">
+								<ul class="l">
+									<li><a  class="a_cur">全部咨询<span>(1)</span></a></li>
+									<li><a >商品<span>(1)</span></a></li>
+									<li><a >配送<span>(0)</span></a></li>
+									<li><a >支付<span>(0)</span></a></li>
+									<li><a >发票<span>(0)</span></a></li>
+									<li><a >常见问题</a></li>
+								</ul>								
+							</div>
+							<div class="ping_down">
+								<p>暂无该产品的资讯数据！</p>
+							</div>
+							<div class="ping_bottom">
+							<a>购买之前，如有问题，请</a><f>发表咨询</f>
+							<div class="fanye r">
+								<a>共 1 条</a>
+								<a >[查看全部咨询]</a>
+							</div>
+						</div>
+						</div>
+						<div id="Baozhang">
+							<div class="baozhang">
+								<h2>品质保障</h2>
+								<p>温馨提示：详情请查看产品包装文字、说明书与保修卡，或致电母婴之家客服热线垂询。</p>
+							</div>							
+						</div>
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+
+	<script>
+        $('.header').load('header.html');
+        $('.aside').load('aside.html');
+        $('.footer').load('footer.html');
+
+//        http://sale.muyingzhijia.com/act/1277.html
+	</script>
+</html>

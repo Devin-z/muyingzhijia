@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common2.css"/>
+		<link rel="stylesheet" href="../css/shoppingcar.css"/>
+		<script src="../js/jquery-1.11.3.js" ></script>
+		<!-- <script src="../js/common2.js" ></script> -->
+		<script src="../js/cookie.js" ></script>
+		<script src='../js/shoppingcar.js'>
+		</script>
+			
+	</head>
+	<body>
+		<div class="header"></div>
+		<div id="header" class="w">
+			<h1 class="l"><a href="#"><img src="../img/index/logo29new.png"/></a></h1>
+			<div class="car_nav r"></div>
+		</div>	
+		<div id="content" class="w">
+			<div class="car_top">
+				<h2 class="l"><i></i>我的购物车</h2>
+				<p class="r" id="lala">立即<a href="login.html">[登录]</a>，可将商品永久保存在购物车中</p>
+			</div>
+			<div class="car_down">
+				<div class="car_cont1">
+					<div class="car_cont1_top">
+						<h2 class="l">母婴之家商城<span>母婴之家商城购物车</span></h2>
+						<ul class="r">
+							<li>单价（元）</li>
+							<li>数量（件）</li>
+							<li>小计（元）</li>
+							<li>操作</li>
+						</ul>
+					</div>					
+					<div class="car_cont1_down oCarList">
+						
+					</div>
+					<div class='js'>
+						<p>共计：<span class='sumprice'></span>元<a href="#">去结算</a></p>
+					</div>
+					<span class='btnClear'> 清空购物车</span>
+				</div>
+				<div class="box1">
+						您的购物车还没有任何东西哦！去逛逛吧！
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+
+	<script>
+        $('.header').load('header.html ');
+        $('.footer').load('footer.html ');
+	</script>
+</html>

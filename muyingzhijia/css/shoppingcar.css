@@ -1,0 +1,59 @@
+.header #header{display: none}
+.header #nav{display: none}
+#header .car_nav{height: 36px;width: 612px;background: url(../img/shoppingcar/cart-step1.png) no-repeat;margin-top: 22px;}
+#bottom{background:#fff}
+
+
+#content .car_top{overflow: hidden;}
+#content .car_top h2{padding: 10px 43px;font-size: 18px;background: url(../img/shoppingcar/gouwuche.png) no-repeat 0 5px;}
+#content .car_top p{margin: 20px 17px 0px 0px;}
+#content .car_top p a{color: #FF5C00;}
+
+#content .car_down .car_cont1_top{overflow: hidden;background: #F8F8F8;padding: 0 20px;}
+#content .car_down .car_cont1_top h2{height: 44px;line-height: 44px;}
+#content .car_down .car_cont1_top h2 span{color: #777;font-size: 14px;font-weight: 100;padding-left: 5px;}
+#content .car_down .car_cont1_top ul li{float: left;height: 44px;line-height: 44px;width: 120px;text-align: center;}
+
+
+#content .car_down .car_cont1_down{width:100%;min-height:39px;border:1px solid #ccc;background: #F8F8F8;margin-bottom: 10px;display: flex}
+#content .car_down .car_cont1_down ul{width: 100%;}
+#content .car_down .car_cont1_down ul li{display: flex;padding:5px 10px;position: relative;width: 100%;}
+#content .car_down .car_cont1_down ul li img{width: 80px;height: 80px;}
+#content .car_down .car_cont1_down ul li a{padding:5px 10px;width: 254;}
+#content .car_down .car_cont1_down ul li p{position: absolute;top:20px;right:99px;}
+#content .car_down .car_cont1_down ul li p span{margin-left:95px;}
+#content .js{width: 200px;position: relative;left: 900px;}
+#content .js a{margin-left:20px;font-size: 18px;display: inline-block;color:#fff;background: #f60;padding: 5px 10px;}
+#content .js .sumprice{color:#f60;font-size: 24px;}
+
+#content .car_down .box1{display: none;}
+
+#content .btnClear{color:#f60;font-size: 18px;position: relative;top:-15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

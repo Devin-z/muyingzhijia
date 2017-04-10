@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common2.css" />
+		<link rel="stylesheet" href="../css/zhuce.css">
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/zhuce.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div id="content">
+			<div class="cont_box w">
+				<ul>
+					<li class="cont_zhuce l">
+						<i></i>
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li class="cont_login l">
+						<i></i>
+						<a href="login.html">登录</a>
+					</li>					
+				</ul>
+				<form action="login.html" method="post">
+					<dl>
+						<dt class="l"><label for="phone">手机号：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="text" name="phone" id="phone" placeholder="请输入手机号" autocomplete="off" />
+								<i style="background-position:  -120px 0px;"></i>
+							</div>
+							<p></p>
+						</dd>						
+					</dl>
+					<dl>
+						<dt class="l"><label for="pass">请设置密码：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="password" name="pass" id="pass" placeholder="请填入密码" autocomplete="off" />
+								<i style="background-position:  -153px 0px;"></i>
+							</div>
+							<p></p>
+						</dd>						
+					</dl>
+					<dl>
+						<dt class="l"><label for="pass2">请确认密码：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="password" name="pass2" id="pass2" placeholder="请再次填写密码" autocomplete="off" />
+								<i style="background-position:  -153px 0px;"></i>
+							</div>
+							<p><b></b></p>
+						</dd>						
+					</dl>	
+					<dl>
+						<dt class="l"><label for="yanzheng">验证码：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="text" id="yanzheng" value="" class="yanzheng" placeholder="请输入图片验证码" /><img src="../img/yanzhengma/1.jpg" class="change_tu" alt="看不清楚，点击换一张" title="看不清楚，点击换一张"/>看不清？<a href="javascript:;" class="change_tu">换一张</a>
+							</div>
+							<p><b></b></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><label for="suanxin">短信验证码：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="text" id="suanxin" value="" class="yanzheng" />
+								<input type="button" id="hqsjyzm" value="" class="hqsjyzm" />
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><label for="#"></label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="checkbox" id="cont_check" class="cont_check" checked/>阅读并同意<a href="http://www.muyingzhijia.com/help/agreement.aspx">《母婴之家网站用户协议》</a>
+							</div>
+							<div class="xy"> <p><b></b></p></div>
+							<button></button>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><label ></label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								使用合作网站账号登录母婴之家：
+							</div>
+							<div class="con_icon">
+								<a href="#" class="wx_icon" title="微博账号登录"></a>
+								<a href="#" class="zfb_icon" title="支付宝账号登录"></a>
+								<a href="#" class="qq_icon" title="QQ帐号登录"></a>								
+							</div>
+						</dd>
+					</dl>
+				</form>
+				<div class="cont_Img">
+					<a href="../index.html"><img src="../img/zhuce-login/banner.jpg"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+	<script>
+        $('.header').load('header.html');
+        $('.footer').load('footer.html #bottom');
+	</script>
+</html>

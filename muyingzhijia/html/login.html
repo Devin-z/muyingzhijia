@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/common2.css"/>
+		<link rel="stylesheet" href="../css/login.css">
+		<script src="../js/jquery-1.11.3.js"></script>
+		
+
+	</head>
+	<body>
+		<div class="header"></div>
+
+		<div id="content">
+			<div class="cont_box w">
+				<ul>
+					<li class="cont_zhuce l">
+						<i></i>
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li class="cont_login l">
+						<i></i>
+						<a href="login.html">登录</a>
+					</li>					
+				</ul>
+				<div class="cont_Img">
+					<a href="../index.html"><img src="../img/zhuce-login/app.jpg"/></a>
+				</div>	
+				<form action="index.html" method="post">
+					<dl>
+						<dt class="l"><label for="phone">账户名：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="text" name="phone" id="phone" placeholder="请填入邮箱或手机号码" autocomplete="off" />
+								<i class='phone' ></i>
+							</div>
+							<p><b></b></p>
+						</dd>						
+					</dl>
+					<dl>
+						<dt class="l"><label for="pass">密码：</label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="password" name="pass" id="pass" placeholder="请填入密码" autocomplete="off" />
+								<i class='pen'></i>
+							</div>
+							<p><b></b></p>
+						</dd>						
+					</dl>
+					
+					<dl>
+						<dt class="l"><label for="duanxin"></label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								<input type="checkbox" id="cont_check" class="cont_check"/>记住我(30天内免登陆)<a href="http://www.muyingzhijia.com/help/agreement.aspx">忘记密码？</a>
+							</div>
+							<button></button>
+							<p><b></b></p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><label for="duanxin"></label></dt>
+						<dd class="l">
+							<div class="cont_div">
+								使用合作网站账号登录母婴之家：
+							</div>
+							<div class="con_icon">
+								<a href="#" class="wx_icon" title="微博账号登录"></a>
+								<a href="#" class="zfb_icon" title="支付宝账号登录"></a>
+								<a href="#" class="qq_icon" title="QQ帐号登录"></a>								
+							</div>
+						</dd>
+					</dl>
+				</form>					
+			</div>
+		</div>
+		<div class="footer"></div>
+			<script>
+                $('.header').load('header.html');
+                $('.footer').load('footer.html #bottom');
+			</script>
+			<script src="../js/cookie.js"></script>
+			<script src="../js/login.js"></script>
+	</body>
+</html>
